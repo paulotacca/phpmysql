@@ -12,7 +12,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <h2>Dashboard</h2>
   <p>Olá, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Benvindo ao nosso site.</h1>
   <hr>  
-  <p>Mensagem de alteção do dashboard. Nova</p>
+  <p>Mensagem de alteção do dashboard.</p>
   <p>
     <a href="reset-password.php" class="btn btn-warning">Resete a sua senha</a>
     <a href="logout.php" class="btn btn-danger ml-3">Faça logout em sua conta</a>
